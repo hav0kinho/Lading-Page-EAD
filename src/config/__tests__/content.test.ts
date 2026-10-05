@@ -16,7 +16,14 @@ describe("SITE_CONTENT", () => {
   });
 
   it("garante links válidos para o vídeo e avaliação", () => {
-    expect(SITE_CONTENT.video.youtubeEmbedUrl).toContain("youtube");
-    expect(SITE_CONTENT.quiz.formUrl).toBeDefined();
+    expect(SITE_CONTENT.video.youtubeEmbedUrl).toBe(
+      "https://www.youtube.com/embed/mBtOIufuHZc?si=f8EAJzBsnvVdOSKG"
+    );
+    expect(SITE_CONTENT.video.youtubeWatchUrl).toBe(
+      "https://youtu.be/mBtOIufuHZc"
+    );
+    expect(SITE_CONTENT.quiz.formUrl).toBe(
+      "https://docs.google.com/forms/d/e/1FAIpQLSeYPW2Ya1Y-gf6PIUSBGPAL20ANI7RT_r0BJbfpDN21qcFRcg/viewform"
+    );
   });
 });

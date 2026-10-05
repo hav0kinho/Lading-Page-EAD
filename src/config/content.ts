@@ -54,7 +54,8 @@ export const SITE_CONTENT = {
     sectionId: "minicurso",
     title: "O Minicurso",
     subtitle: "Assista à aula completa e descubra como integrar o fluxo do GitHub à sua rotina pedagógica.",
-    youtubeEmbedUrl: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+    youtubeEmbedUrl: "https://www.youtube.com/embed/mBtOIufuHZc?si=f8EAJzBsnvVdOSKG",
+    youtubeWatchUrl: "https://youtu.be/mBtOIufuHZc",
     accessibilityNote: "Vídeo com legendas revisadas em português disponíveis no player.",
   },
   quiz: {
@@ -62,7 +63,8 @@ export const SITE_CONTENT = {
     description:
       "Agora que você concluiu o vídeo, que tal testar o que aprendeu? Nossa avaliação interativa oferece feedback instantâneo para reforçar os conceitos.",
     buttonText: "Iniciar Avaliação",
-    formUrl: "https://forms.google.com",
+    formUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLSeYPW2Ya1Y-gf6PIUSBGPAL20ANI7RT_r0BJbfpDN21qcFRcg/viewform",
     badge: "Feedback Instantâneo",
   },
   author: {

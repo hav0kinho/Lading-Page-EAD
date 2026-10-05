@@ -20,6 +20,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: SITE_CONTENT.meta.title,
   description: SITE_CONTENT.meta.description,
+  referrer: "strict-origin-when-cross-origin",
 };
 
 export default function RootLayout({

@@ -8,6 +8,6 @@ describe("Home Page SPA", () => {
     expect(screen.getByRole("heading", { level: 1 })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: /Sobre o Minicurso/i })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: /Ao final deste minicurso/i })).toBeInTheDocument();
-    expect(screen.getByTitle("Player do Minicurso")).toBeInTheDocument();
+    expect(screen.getByTitle("YouTube video player")).toBeInTheDocument();
   });
 });
